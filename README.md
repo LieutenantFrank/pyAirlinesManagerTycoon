@@ -10,5 +10,5 @@ Chromedriver:
   https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 I had to start the cmd window as administrator for it to work
-Once you're ready just run 
+once you're ready just run 
 python pricing.py
