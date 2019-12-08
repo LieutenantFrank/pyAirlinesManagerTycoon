@@ -9,6 +9,8 @@ You'll need to get Selenium and Chromedriver
 Chromedriver:
   https://sites.google.com/a/chromium.org/chromedriver/downloads
 
+Edit the pricing.py file and enter your username and password!
+
 I had to start the cmd window as administrator for it to work
 once you're ready just run 
 python pricing.py
