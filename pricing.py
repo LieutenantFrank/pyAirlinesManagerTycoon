@@ -5,7 +5,8 @@ import re
 
 counterRefreshed = 0
 counterSkipped = 0
-
+username = "YOUR USERNAME"
+password = "YOUR PASSWORD"
 
 def elem(id):
     return driver.find_element_by_id(id)
@@ -22,8 +23,8 @@ def setTextForId(id, text):
 
 def login():
     print("Entering credentials")
-    setTextForId("username", "lieutenant.frank7@googlemail.com")
-    setTextForId("password", "dpr3zq5m")
+    setTextForId("username", username)
+    setTextForId("password", password)
     print("Logging in")
     elem("password").send_keys(Keys.ENTER)
     if "Free" in driver.title:
